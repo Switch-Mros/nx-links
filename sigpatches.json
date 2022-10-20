@@ -1,4 +1,4 @@
 {
-    "hekate.zip | Supports HOS firmware 12.0.2 and AMS 0.19.3": "https://github.com/ITotalJustice/patches/releases/download/12.0.2-0.19.3/hekate.zip",
-    "fusee.zip | Supports HOS firmware 12.0.2 and AMS 0.19.3": "https://github.com/ITotalJustice/patches/releases/download/12.0.2-0.19.3/fusee.zip"
+    "hekate.zip | Unterstützt HOS firmware 15.0.0 und AMS 1.4.0": "https://github.com/Switch-Bros/nx-links/patches/releases/download/15.0.0/hekate.zip",
+    "fusee.zip | Unterstützt HOS firmware 15.0.0 und AMS 1.4.0": "https://github.com/Switch-Bros/nx-links/patches/releases/download/15.0.0/fusee.zip"
 }
