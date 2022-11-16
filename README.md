@@ -1,5 +1,5 @@
 # nx-links
 
-Scripts to fetch links used by [AiO-switch-updater](https://github.com/HamletDuFromage/aio-switch-updater)
+Skripte zum Abrufen der Links, die von [switchbros-updater](https://github.com/Switch-Bros/switchbros-updater) genutzt werden.
 
 Thanks to Team Neptune for their scripts serving as the base to mine
