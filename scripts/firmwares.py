@@ -1,50 +1,78 @@
+""" 
+import internetarchive as ia
+import re
+from basemodule import BaseModule
+import urllib.parse
+
+class Firmwares(BaseModule):
+    def __init__(self):
+        self.collections = [
+            {"title": "nintendo-switch-global-firmwares", "prefix": ""},
+            {"title": "nintendo-switch-china-firmwares",
+                "prefix": "[China Firmware] "}
+        ]
+        self.url = "https://archive.org/download/"
+        BaseModule.__init__(self)
+
+    def sort_firmwares(self, file):
+        match = re.match(r"Firmware ([\d\.]+).*\.zip", file["name"])
+        res = 0
+        if match:
+            ver = match[1].split(".")
+            for i in range(len(ver)):
+                res += (100**(len(ver) - 1 - i)) * int(ver[i])
+        else:
+            res = 0
+        return res
+
+    def handle_module(self):
+        for collection in self.collections:
+            item = ia.get_item(collection["title"])
+            #files = sorted(item.files, key=lambda d: d.get("mtime", "0"), reverse=True)
+            files = sorted(item.files, key=self.sort_firmwares, reverse=True)
+            for file in files:
+                match = re.match(r"(Firmware.+)\.zip", file["name"])
+                if match:
+                    download = self.url + \
+                        collection["title"] + "/" + file['name']
+                    self.out[collection["prefix"] + match[1]
+                             ] = urllib.parse.quote(download, safe=":/")
+"""
+
+from basemodule import BaseModule
 from bs4 import BeautifulSoup
 import requests
-import json
 
-url = "https://darthsternie.net/switch-firmwares/"
-
-class Firmwares():
+class Firmwares(BaseModule):
     def __init__(self):
-        print("Init module: ", self.__module__)
-        out = {}
-        path = "firmwares.json"
-        links = self.fetch_dl_links(url)
-        for i in range(len(links[0])):
-            link = links[1][i].find("a")
-            if link is not None:
-                out[links[0][i]] = link.get("href")
-        
-        change = False
-        try:
-            with open(path, 'r') as read_file:
-                old = json.load(read_file)
-                if(json.dumps(old) != json.dumps(out)):
-                    print(path + " changed")
-                    change = True
-        except FileNotFoundError:
-            print("File doesn't exist")
-            change = True
+        self.url = "https://darthsternie.net/switch-firmwares/"
+        self.limit = 5
+        BaseModule.__init__(self)
 
-        if(change):
-            with open(path, 'w') as write_file:
-                json.dump(out, write_file, indent=4)
-            print("Updated " + path)
-
-
-    def getContent(self, tag):
+    def get_content(self, tag):
         return tag.contents[0]
 
-    def fetch_dl_links(self, url):
-        page = requests.get(url)
+    def handle_module(self):
+        page = requests.get(self.url)
         soup = BeautifulSoup(page.content, "html.parser")
-        table = soup.find_all("tbody")
-        titles = list(map(self.getContent, (table[0].find_all("td", {"class": "column-1"}))))
-        links = table[0].find_all("td", {"class": "column-5"})
-        china_titles = list(map(self.getContent, table[1].find_all("td", {"class": "column-1"})))
-        for i in range(len(china_titles)):
-            china_titles[i] = "[China Firmware] " + china_titles[i]
-        china_links = table[1].find_all("td", {"class": "column-5"})
-        return [titles + china_titles, links + china_links]
+        tables = soup.find_all("tbody")
+        if tables != []:
+            titles = list(
+                map(self.get_content, (tables[0].find_all("td", {"class": "column-1"}))))
+            links_archive = tables[0].find_all("td", {"class": "column-5"})
+            links_mega = tables[0].find_all("td", {"class": "column-4"})
+            for i in range(min(self.limit, len(titles))):
+                if links_archive[i].find("a"):
+                    self.out[f"[archive.org] {titles[i]}"] = links_archive[i].find("a").get("href")
+                if links_mega[i].find("a"):
+                    self.out[f"[mega.nz] {titles[i]}"] = links_mega[i].find("a").get("href")
 
-package = Firmwares()
+            china_titles = list(
+                map(self.get_content, tables[1].find_all("td", {"class": "column-1"})))
+            china_links_archive = tables[1].find_all("td", {"class": "column-5"})
+            china_links_mega = tables[1].find_all("td", {"class": "column-4"})
+            for i in range(min(self.limit, len(china_titles))):
+                if china_links_archive[i].find("a"):
+                    self.out[f"[archive.org] [China fw] {china_titles[i]}"] = china_links_archive[i].find("a").get("href")
+                if china_links_mega[i].find("a"):
+                    self.out[f"[mega.nz] [China fw] {china_titles[i]}"] = china_links_mega[i].find("a").get("href")

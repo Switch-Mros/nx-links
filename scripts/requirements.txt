@@ -1,5 +1,4 @@
 PyGithub
-python-gitlab
-xmltodict
 requests
 beautifulsoup4
+internetarchive
