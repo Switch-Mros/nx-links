@@ -1,8 +1,8 @@
 {
     "cfws": {
         "Atmosphere": {
-            "Switch Bros. 110": "https://github.com/Switch-Bros/Switch-Bros.-Pack/releases/download/1.1.0/SwitchBros_BasisPaket.zip"
-        }
+			"SwitchBros-O-sphere 1.4.0": "https://github.com/Switch-Bros/SwitchBros-O-sphere/releases/download/1.4.0/SwitchBros-O-sphere-1.4.0-master-09c05e8f2+hbl-2.4.3+hbmenu-3.5.1.zip"
+    }
     },
     "firmwares": {
         "Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo"
