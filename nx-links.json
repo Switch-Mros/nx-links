@@ -19,12 +19,12 @@
     "payloads": {
 		"fusee.bin": "https://github.com/Switch-Bros/SwitchBros-O-sphere/releases/download/1.4.0/fusee.bin",
 		"Lockpick_RCM.bin": "https://github.com/Switch-Bros/Lockpick_RCM/releases/download/1.9.9/Lockpick_RCM.bin",
-		"TegraExplorer.bin": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.0.1-hotfix3/TegraExplorer.bin"
+		"TegraExplorer.bin": "https://github.com/Switch-Bros/TegraExplorer/releases/download/4.1.0/TegraExplorer.bin"
     },
     "firmwares": {
         "[mega.nz] Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo"
     },
     "hekate_ipl": {
-        "hekate_ipl.ini": "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/resources/hekate_ipl.ini"
+        "hekate_ipl.ini": "https://github.com/Switch-Bros/nx-links/blob/master/resources/hekate_ipl.ini"
     }
 }
