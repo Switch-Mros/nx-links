@@ -3,13 +3,10 @@ import re
 import argparse
 import json
 
-parser = argparse.ArgumentParser(
-    description="Get links for AiO-Switch-Updater")
+parser = argparse.ArgumentParser(description="Get links for AiO-Switch-Updater")
 requiredNamed = parser.add_argument_group('Require arguments')
-requiredNamed.add_argument('-gt', '--githubToken',
-                           help='Github Token', required=True)
+requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
 args = parser.parse_args()
-
 
 class BaseModule:
     def __init__(self, config={}):

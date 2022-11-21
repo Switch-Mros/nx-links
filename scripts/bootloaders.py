@@ -9,10 +9,5 @@ class Bootloaders(BaseModule):
                 "reponame": "hekate",
                 "assetPatterns": [".*hekate_ctcaer.*\\.zip"]
             },
-            {
-                "username": "Guillem96",
-                "reponame": "argon-nx",
-                "assetPatterns": [".*argon-nx.*\\.zip"]
-            }
         ]
         BaseModule.__init__(self)
