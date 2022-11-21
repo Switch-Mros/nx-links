@@ -4,7 +4,7 @@
     },
     "cfws": {
         "Atmosphere": {
-            "SwitchBros-O-sphere-1.4.0-master-09c05e8f2+hbl-2.4.3+hbmenu-3.5.1.zip": "https://github.com/Switch-Bros/SwitchBros-O-sphere/releases/download/1.4.0/SwitchBros-O-sphere-1.4.0-master-09c05e8f2+hbl-2.4.3+hbmenu-3.5.1.zip"
+            "SwitchBros-O-sphere 1.4.0 -09c05e8f2": "https://github.com/Switch-Bros/SwitchBros-O-sphere/releases/download/1.4.0/SwitchBros-O-sphere-1.4.0-master-09c05e8f2+hbl-2.4.3+hbmenu-3.5.1.zip"
         },
         "DeepSea": {
             "SwitchBros_BasisPaket.zip": "https://github.com/Switch-Bros/Switch-Bros.-Pack/releases/download/1.1.0/SwitchBros_BasisPaket.zip",
@@ -22,7 +22,7 @@
 		"TegraExplorer.bin": "https://github.com/Switch-Bros/TegraExplorer/releases/download/4.1.0/TegraExplorer.bin"
     },
     "firmwares": {
-        "[mega.nz] Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo"
+        "Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo"
     },
     "hekate_ipl": {
         "hekate_ipl.ini": "https://github.com/Switch-Bros/nx-links/blob/master/resources/hekate_ipl.ini"
