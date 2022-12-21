@@ -3,14 +3,14 @@ import re
 import argparse
 import json
 
-parser = argparse.ArgumentParser(description="Get links for AiO-Switch-Updater")
+parser = argparse.ArgumentParser(description="Links fuer SwitchBros-Updater holen")
 requiredNamed = parser.add_argument_group('Require arguments')
 requiredNamed.add_argument('-gt', '--githubToken', help='Github Token', required=True)
 args = parser.parse_args()
 
 class BaseModule:
     def __init__(self, config={}):
-        print("Init module: ", self.__module__)
+        print("Initialisiere Module: ", self.__module__)
         self.path = self.__module__ + ".json"
         self.out = {}
         self.handle_module()
