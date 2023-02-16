@@ -1,0 +1,6 @@
+p=println
+p("########## ########## ########## ##### # ##### ########## ########## ##########")
+p()
+p()
+p("                       Willkommen im SwitchBros. Updater")
+pause()
