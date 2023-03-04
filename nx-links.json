@@ -1,13 +1,13 @@
 {
     "cfws": {
         "Atmosphere": {
-            "SwitchBros 112": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/112/SwitchBros_BasisPaket.zip"
+            "SwitchBros_Paket 113": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/113/SwitchBros_BasisPaket.zip"
 		}
 	},
-    "firmwares": {
-        "[archive.org] Firmware 15.0.1 (Rebootless Update)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1%20%28Rebootless%20Update%29.zip",
-        "[mega.nz] Firmware 15.0.1 (Rebootless Update)": "https://mega.nz/file/Id5jyRTB#PulAyz8IcSyiR-s6KYb-TwG719YxmxpzvO4utrEMaIs",
-        "[archive.org] Firmware 15.0.1": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1.zip",
-        "[mega.nz] Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo"
+    "firmwares": {        
+        "Firmware 15.0.1 (Rebootless Update)": "https://mega.nz/file/Id5jyRTB#PulAyz8IcSyiR-s6KYb-TwG719YxmxpzvO4utrEMaIs",
+"Firmware 15.0.1 (Rebootless Update, langsamer Download)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1%20%28Rebootless%20Update%29.zip",
+"Firmware 15.0.1": "https://mega.nz/file/8JwUQK6R#CpNCgmtQrjpNgem6Omo51qDEYw7MhrNF7jcZSNmprRo",
+        "Firmware 15.0.1 (langsamer Download)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1.zip"
     }
 }
