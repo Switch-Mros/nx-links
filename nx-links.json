@@ -1,7 +1,8 @@
 {
     "cfws": {
         "Atmosphere": {
-            "SwitchBros_Paket 114": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/114/SwitchBros_BasisPaket.zip"
+            "SwitchBros_Paket 114": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/114/SwitchBros_BasisPaket.zip",
+            "SwitchBros_Paket test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip"
         }
     },
     "firmwares": {
