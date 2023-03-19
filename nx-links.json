@@ -7,6 +7,7 @@
     "bootloaders": {
         "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip", 
         "SwitchBros_Android Dev-Paket (Build 20230317)": "https://github.com/TTghostsemir/Switch-Lineage/releases/download/20230317/lineage-18.1-20230317.zip"
+        }
     },
     "firmwares": {
         "[mega.nz] Firmware 15.0.1 (schnell)": "https://mega.nz/file/Id5jyRTB#PulAyz8IcSyiR-s6KYb-TwG719YxmxpzvO4utrEMaIs",
