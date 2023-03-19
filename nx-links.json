@@ -4,8 +4,8 @@
             "SwitchBros_Paket 114": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/114/SwitchBros_BasisPaket.zip"
         }
     },
-      "bootloaders": {
-        "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip"
+    "bootloaders": {
+        "SwitchBros_Paket Dev-test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip"
     },
     "firmwares": {
         "Firmware 16.0.0": "https://github.com/Switch-Bros/Switch-Firmware/releases/download/16.0.0/Firmware_16.0.0.zip",
