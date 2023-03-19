@@ -9,7 +9,10 @@
         "SwitchBros_Android Dev-Paket (Build 20230317)": "https://github.com/TTghostsemir/Switch-Lineage/releases/download/20230317/lineage-18.1-20230317.zip"
     },
     "firmwares": {
-        "Firmware 15.0.1": "https://github.com/Switch-Bros/Switch-Firmware/releases/download/15.0.1/Firmware_15.0.1.zip",
-        "Firmware 16.0.0": "https://github.com/Switch-Bros/Switch-Firmware/releases/download/16.0.0/Firmware_16.0.0.zip"
+        "[mega.nz] Firmware 15.0.1 (schnell)": "https://mega.nz/file/Id5jyRTB#PulAyz8IcSyiR-s6KYb-TwG719YxmxpzvO4utrEMaIs",
+        "[archive.org] Firmware 15.0.1 (langsam)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2015.0.1%20%28Rebootless%20Update%29.zip",
+        " ",
+        "[mega.nz] Firmware 16.0.0 (schnell)": "https://mega.nz/file/IB5SyYYJ#ZES4plxEGqLzsN2sX8spGF0KGhqcNWvh6VxY2WQIlIQ",
+        "[archive.org] Firmware 16.0.0 (langsam)": "https://archive.org/download/nintendo-switch-global-firmwares/Firmware%2016.0.0.zip"
     }
 }
