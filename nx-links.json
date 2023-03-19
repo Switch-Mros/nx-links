@@ -1,9 +1,11 @@
 {
     "cfws": {
         "Atmosphere": {
-            "SwitchBros_Paket 114": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/114/SwitchBros_BasisPaket.zip",
-            "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip"
+            "SwitchBros_Paket 114": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/114/SwitchBros_BasisPaket.zip"
         }
+    },
+      "hekate": {
+        "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip"
     },
     "firmwares": {
         "Firmware 16.0.0": "https://github.com/Switch-Bros/Switch-Firmware/releases/download/16.0.0/Firmware_16.0.0.zip",
