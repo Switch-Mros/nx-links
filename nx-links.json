@@ -6,7 +6,7 @@
     },
     "bootloaders": {
         "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip",
-        "SwitchBros_Android Dev-Paket (Build 20230317)": "https://github.com/TTghostsemir/Switch-Lineage/releases/download/20230317/lineage-18.1-20230317.zip"
+        "SwitchBros_Android Dev-Paket (Build 20230405)": "https://github.com/TTghostsemir/Switch-Lineage/releases/download/20230405/lineage-18.1-20230405.zip"
     },
     "firmwares": {
         "Firmware 16.0.1 (schnellste GitHub.com)": "https://github.com/Switch-Bros/Switch-Firmware/releases/download/16.0.1/Firmware_16.0.1.zip",
