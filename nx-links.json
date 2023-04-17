@@ -3,11 +3,6 @@
         "Atmosphere": {
             "SwitchBros_Paket 115": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/115/SwitchBros_BasisPaket.zip"
         },
-        "DeepSea": {
-            "deepsea-advanced_v4.5.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.5.0/deepsea-advanced_v4.5.0.zip",
-            "deepsea-minimal_v4.5.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.5.0/deepsea-minimal_v4.5.0.zip",
-            "deepsea-normal_v4.5.0.zip": "https://github.com/Team-Neptune/DeepSea/releases/download/v4.5.0/deepsea-normal_v4.5.0.zip"
-        }
     },
     "bootloaders": {
         "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip",
