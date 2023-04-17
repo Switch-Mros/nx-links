@@ -2,7 +2,7 @@
     "cfws": {
         "Atmosphere": {
             "SwitchBros_Paket 115": "https://github.com/Switch-Bros/SwitchBros_BasisPaket/releases/download/115/SwitchBros_BasisPaket.zip"
-        },
+        }
     },
     "bootloaders": {
         "SwitchBros_Paket Dev-Test": "https://github.com/Switch-Bros/nx-links/releases/download/1/SwitchBros_BasisPaket.zip",
